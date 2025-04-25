@@ -1,0 +1,45 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    scroll-behavior: smooth;
+  }
+
+
+
+.home {
+    height:100vh;
+    background: #7c69ae;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  .home h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .home p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .btn-primary {
+    background-color:gray;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color:black;
+  }
+
+
+
+   .project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .project-card:hover {
+    transform: translateY(-8px);
+    color:black;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  }
